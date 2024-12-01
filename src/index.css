@@ -3,65 +3,16 @@ body {
   padding: 0;
 }
 
-.form-div{
-  width: 100%;
+.card-div{
   display: flex;
-  flex-direction: column;
+  gap: 20px;
   justify-content: center;
-  align-items: center;
+  margin-top: 50px;
 }
 
-.form-div p{
-  font-size: 20px;
-  font-weight: bold;
-  color: black;
-  font-family: Poppins;
-  width: 25%;
-  text-align: center;
-}
-
-.form{
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  width: 40%;
-  border: none;
-  border-radius: 10px;
-  padding: 40px;
-  box-shadow: 0 0 5px rgb(255, 196, 0);
-}
-
-.form input{
-  padding: 15px;
-  border: none;
-  border-radius: 5px;
+.card{
+  width: 20%;
   background: #ededed;
-}
-
-.form button{
-  padding-top: 8px;
-  padding-bottom: 8px;
-  background: dodgerblue;
-  color: white;
-  font-size: 18px;
-  font-family: Poppins;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 20px;
-  border: none;
-  border-radius: 7px;
-  cursor: pointer;
-}
-
-.form button:hover{
-  background: orange;
-}
-
-.div{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 24px;
-  padding-top: 50px;
+  padding: 10px 20px;
 
 }
