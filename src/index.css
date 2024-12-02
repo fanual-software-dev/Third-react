@@ -3,16 +3,24 @@ body {
   padding: 0;
 }
 
-.card-div{
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-  margin-top: 50px;
+.container-1{
+  border-bottom: 1.5px solid rgb(85, 85, 85);
 }
 
-.card{
-  width: 20%;
-  background: #ededed;
-  padding: 10px 20px;
+nav {
+  display: flex;
+  gap: 15px;
+}
 
+nav a{
+  color: rgb(85, 85, 85);
+}
+
+
+.footer{
+  margin-top: 250px;
+}
+
+.link{
+  color: rgb(85, 85, 85);
 }

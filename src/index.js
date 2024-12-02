@@ -2,14 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import { Contextprovider } from './components/Context';
+import { BrowserRouter } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Contextprovider>
+    
+    <BrowserRouter>
       <App />
-    </Contextprovider>
+    </BrowserRouter>
+    
   </React.StrictMode>
 );
 
