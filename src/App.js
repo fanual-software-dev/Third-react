@@ -2,14 +2,14 @@ import { Routes,Route } from "react-router-dom";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Featured from "./components/Featured";
-import Footer from "./components/Footer";
+
 import Enterprise from "./components/Enterprise";
 import Support from "./components/Support";
 
 
 function App() {
   return (
-    <>
+    <div className="bg-dark div">
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home/>}></Route>
@@ -17,8 +17,8 @@ function App() {
         <Route path="features" element={<Featured/>}></Route>
         <Route path="enterprise" element={<Enterprise/>}></Route>
       </Routes>
-      <Footer></Footer>
-    </>
+      {/* <Footer></Footer> */}
+    </div>
   );
 }
 
