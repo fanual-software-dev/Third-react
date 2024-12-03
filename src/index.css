@@ -2,10 +2,13 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  background-image: url('https://img.freepik.com/free-photo/vibrant-sunset-sky-idyllic-landscape-high-up-nature-generated-by-ai_188544-55339.jpg?ga=GA1.1.1077894895.1725607898&semt=ais_hybrid');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container-1{
-  border-bottom: 1.5px solid rgb(85, 85, 85);
+  border-bottom: 1.5px solid rgb(255, 255, 255);
 }
 
 nav {
@@ -22,7 +25,7 @@ nav a{
 
 input{
   border: none;
-  border-radius: 5px;
+  border-radius: 50px;
   background: #ffffff;
   
 }
@@ -31,19 +34,50 @@ input{
   height: 100vh;
 }
 
-.details{
-  gap: 10%;
-}
 
 .p{
   gap: 8px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .p span{
-  font-weight: 18px;
+  font-size: 20px;
   font-weight: bold;
+  font-family: Poppins;
 }
 
 .error{
   display: none;
+}
+
+.weather-data{
+  bottom: 100px;
+  backdrop-filter: blur(5px);
+  background: #e7e5e56f;
+  border: none;
+  border-radius: 8px;
+  gap: 10%;
+}
+
+.input{
+  gap: 1%;
+}
+
+.button{
+  border-radius: 50px;
+  background: #131212;
+  border: none;
+}
+
+.button:hover{
+  transition: 0.2s ease;
+  background: #1c1b1b;
+}
+
+.description{
+  writing-mode: vertical-rl;
+  text-orientation: sideways-right;
+  transform: rotate(180deg);
+  
 }

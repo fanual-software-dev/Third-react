@@ -9,7 +9,7 @@ import Support from "./components/Support";
 
 function App() {
   return (
-    <div className="bg-dark div">
+    <div className=" div">
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home/>}></Route>
